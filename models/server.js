@@ -18,7 +18,6 @@ class Server{
 routes(){
 //Creamos la primera peticion 
 this.app.use(this.usersPath,require('../routes/users'));
-
 }
 
 
