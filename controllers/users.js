@@ -8,7 +8,7 @@ const getMethod=(req=request, res=response)=>{
         OK:"200",
         msj:"Mesaje GET devuelto desde el controlador ",
         nombre,
-        universidad:"no enviada"
+        universidad
     });
 
 }
